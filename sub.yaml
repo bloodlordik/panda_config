@@ -10,15 +10,15 @@ dns:
     - 1.1.1.1
 
 proxies:
-  - name: "mieru-server"
+  - name: mieru-server
     type: mieru
     server: 62.60.255.75
-    port-range: "9000-9010"
+    port-range: 9000-9010
     transport: TCP
-    udp: false
-    username: "1RKo2cNy"
-    password: "6x67LAGN"
-    multiplexing: MULTIPLEXING_DEFAULT
+    udp: true
+    username: 1RKo2cNy
+    password: 6x67LAGN
+    multiplexing: MULTIPLEXING_HIGH
 
 proxy-groups:
   - name: "Proxy"
